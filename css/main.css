@@ -1,5 +1,5 @@
 body {
-  color: black;
+  color: white;
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
@@ -45,9 +45,11 @@ header {
 }
 .head .bars {
   display: none;
+  color: white;
 }
 .head .logo {
   font-size: 24px;
+  color: white;
 }
 .head .menu {
   display: -webkit-box;
@@ -973,5 +975,21 @@ footer .footer-row .icon-block .linkedin {
   }
 }
 .btn-closee {
+  border: none;
+}
+
+.modal {
+  color: black;
+}
+.modal .modal-header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+.modal .modal-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
 }
