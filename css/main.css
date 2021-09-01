@@ -533,6 +533,7 @@ header {
   font-weight: 400;
   padding-left: 10px;
   font-size: 14px;
+  cursor: pointer;
 }
 .cards-filter .cards-nav .cards-nav-item .nav-element {
   padding-left: 4px;
@@ -598,6 +599,7 @@ header {
   margin-top: 20px;
   position: absolute;
   top: 108px;
+  cursor: pointer;
 }
 .cards .cards-row .cards-body .plus-icon:hover {
   font-size: 35px;
@@ -652,6 +654,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.form-body .form-row .erorr {
+  color: red;
+}
 .form-body .form-row .form-input {
   width: 100%;
   max-width: 360px;
@@ -666,6 +671,9 @@ header {
   margin: 0px auto;
   max-width: 750px;
   margin-top: 26px;
+}
+.form-body .form-input-text .erorr {
+  color: red;
 }
 .form-body .form-input-text .official-style {
   border: 1px solid #999999;
@@ -719,12 +727,12 @@ footer .footer-block {
       -ms-flex-align: center;
           align-items: center;
 }
-footer .footer-text {
+footer .footer-block .footer-text {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   color: #b2b2b2;
 }
-footer .footer-row {
+footer .footer-block .footer-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,26 +742,31 @@ footer .footer-row {
           flex-direction: row;
   margin: 31px 0;
 }
-footer .footer-row .icon-block {
+footer .footer-block .footer-row .icon-block {
   margin-right: 13px;
 }
-footer .footer-row .icon-block .icon-footer {
+footer .footer-block .footer-row .icon-block .icon-footer {
   color: #b2b2b2;
   font-size: 18px;
   border: 3px solid #b2b2b2;
   border-radius: 50%;
 }
-footer .footer-row .icon-block .twitter {
+footer .footer-block .footer-row .icon-block .twitter {
   padding: 5px 5px;
 }
-footer .footer-row .icon-block .facebook {
+footer .footer-block .footer-row .icon-block .facebook {
   padding: 5px 9px;
 }
-footer .footer-row .icon-block .google {
+footer .footer-block .footer-row .icon-block .google {
   padding: 5px 5px;
 }
-footer .footer-row .icon-block .linkedin {
+footer .footer-block .footer-row .icon-block .linkedin {
   padding: 5px 5px;
+}
+
+footer .footer-block .footer-row .icon-block .icon-footer:hover {
+  color: white;
+  border: 3px solid white;
 }
 
 @media (max-width: 591px) {
@@ -829,6 +842,7 @@ footer .footer-row .icon-block .linkedin {
     top: 30px;
     font-size: 20px;
     margin-right: 15px;
+    cursor: pointer;
   }
   .head .menu {
     display: block;
