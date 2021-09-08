@@ -1,7 +1,6 @@
 const fileinclude = require('gulp-file-include');
 
 let project_folder = "dist";
-
 let source_folder = "#src";
 
 let path = {
